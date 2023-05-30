@@ -1,6 +1,6 @@
 variable "location" {
   type        = string
-  default     = "canadaeast"
+  default     = "eastus2"
   description = "the location to use for all resources"
 }
 
