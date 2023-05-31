@@ -1,12 +1,12 @@
 variable "location" {
   type        = string
-  default     = "eastus2"
+  default     = "centralus"
   description = "the location to use for all resources"
 }
 
 variable "project" {
   type        = string
-  default     = "aps-slots-demo"
+  default     = "UCDWEB"
   description = "the project name to use in all resource names"
 }
 
