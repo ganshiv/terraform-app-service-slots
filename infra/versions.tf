@@ -3,6 +3,7 @@ terraform {
     azurerm = {
       source  = "hashicorp/azurerm"
       version = "~> 3.0"
+      skip_provider_registration = "true"
     }
     random = {
       source  = "hashicorp/random"
